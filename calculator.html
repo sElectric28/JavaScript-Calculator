@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculatorStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h1>CALCULATOR</h1>
+            <input type="text" id="display" readonly="readonly">
+        </section>
+        <section class="btn-wrap">
+            <button onclick="allClear()">AC</button>
+            <button onclick="deleteNumber()">DEL</button>
+            <button onclick="doDecimate('*0.1')">%</button>
+            <button onclick="doMath('/')">/</button>
+
+            <button onclick="getNumber(7)">7</button>
+            <button onclick="getNumber(8)">8</button>
+            <button onclick="getNumber(9)">9</button>
+            <button onclick="doMath('*')">*</button>
+            
+            <button onclick="getNumber(4)">4</button>
+            <button onclick="getNumber(5)">5</button>
+            <button onclick="getNumber(6)">6</button>
+            <button onclick="doMath('-')">-</button>
+            
+            <button onclick="getNumber(1)">1</button>
+            <button onclick="getNumber(2)">2</button>
+            <button onclick="getNumber(3)">3</button>
+            <button onclick="doMath('+')">+</button>
+            
+            <button class="hidden">Hello World!</button>
+            <button onclick="getNumber(0)">0</button>
+            <button onclick="getNumber('.')">.</button>
+            <button onclick="doEqual()">=</button>
+        </section>
+    </div>
+    <script src="calculatorFunctions.js"></script>
+</body>
+</html>
