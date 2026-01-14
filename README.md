@@ -19,4 +19,4 @@
 5. The result is shown in the display input value
 
 
-Try it out: link.test
+Try it out: [link.test](https://selectric28.github.io/JavaScript-Calculator/)
